@@ -15,6 +15,8 @@ pip install torch-spline-conv (1.2.1) (https://pytorch-geometric.com/whl/)
 pip install torch-geometric (1.6.1)
 
 2. Implementation
+
+[Data can be download from the "/data" fold at https://github.com/violet-sto/TGSA]
    
 Step1: Data Preprocessing
 data/CellLines_DepMap/CCLE_580_18281/census_706/ - Raw genetic profiles from CCLE and the processed features. You can also preprocess your own data with preprocess_gene.py.
