@@ -1,4 +1,4 @@
-# Paper: HMM-GDAN: Hybrid Multi-View and Multi-Scale Graph Duplex-Attention Networks for Drug Response Prediction in Cancer
+# Paper: Youfa Liu et. al., HMM-GDAN: Hybrid Multi-View and Multi-Scale Graph Duplex-Attention Networks for Drug Response Prediction in Cancer, Neural Networks, 2023, https://doi.org/10.1016/j.neunet.2023.08.036.
 
 ## 1. Experiment Environment
 
@@ -45,4 +45,4 @@ You can run python main.py --mode "train" to train our method HMM-GDAN or run py
 ### Step3 (Optional): Similarity Augment
 First, you can run heterogeneous_graph.py to generate edges of heterogeneous graphs.
 
-Then, you can run main_SA.py to generate node features of heterogeneous graphs using two GNNs from HMM_GDAN/HMM_GDAN_pre and to fine-tune sequentially the remained parameters from HMM_GDANM/HMM_GDAN_pre. To be specific, you can use the instruction python main_SA.py --mode "train"/"test" --pretrain 0/1 to fine-tune HMM_GDAN/HMM_GDAN_pre or to test fine-tuned SA/SA_pre.
+Then, you can run main_SA.py to generate node features of heterogeneous graphs using two GNNs from HMM_GDAN/HMM_GDAN_pre and to fine-tune sequentially the remained parameters from HMM_GDAN/HMM_GDAN_pre. To be specific, you can use the instruction python main_SA.py --mode "train"/"test" --pretrain 0/1 to fine-tune HMM_GDAN/HMM_GDAN_pre or to test fine-tuned SA/SA_pre.
